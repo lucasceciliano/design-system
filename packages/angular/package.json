@@ -1,0 +1,26 @@
+{
+  "name": "@comboio-ui/angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.ts",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --external angular",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --external angular --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/cli": "^16.1.0",
+    "@angular/core": "^16.1.1",
+    "@comboio-ui/eslint-config": "*",
+    "@comboio-ui/tokens": "*",
+    "@comboio-ui/ts-config": "*",
+    "@types/angular": "^1.8.5",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}

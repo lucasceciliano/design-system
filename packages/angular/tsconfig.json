@@ -1,0 +1,4 @@
+{
+    "extends": "@comboio-ui/ts-config/angular.json",
+    "include": ["src"]
+  }
